@@ -1,7 +1,7 @@
 reploy:
 
 install reploy:
-	cp reploy /usr/bin
+	install reploy /usr/bin
 
 uninstall:
 	rm /usr/bin/reploy
