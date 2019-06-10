@@ -1,21 +1,5 @@
 #! /usr/bin/env python3
 
-'''
-Requirements:
-    - python3
-    - rsync
-
-Todo:
-    - Desktop integration
-    - Pipe rsync -v into an output beautifier
-
-Warning! This tool will delete files from REMOTE_HOST:DEPLOY_PATH that don't
-exist in the working directory. Backup before first run.
-
-Dotfiles are ecluded by default, see `.rexclude`.
-
-'''
-
 from os import system, getcwd, path
 
 USERNAME = "the_z"
